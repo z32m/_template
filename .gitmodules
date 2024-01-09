@@ -1,0 +1,3 @@
+[submodule "dts/bindings"]
+	path = dts/bindings
+	url = git@github.com:z32m/bindings.git

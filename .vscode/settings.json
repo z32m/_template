@@ -1,0 +1,31 @@
+{
+    "cmake.configureOnOpen": true,
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.default.generator": "Ninja",
+    "cmake.generator": "Ninja",
+    "cmake.parallelJobs": 32,
+    "[dts]": {
+        "editor.defaultFormatter": "trond-snekvik.devicetree"
+    },
+    "cmake.automaticReconfigure": false,
+    "cmake.ignoreKitEnv": true,
+    "cmake.useCMakePresets": "never",
+    "cmake.exportCompileCommandsFile": false,
+    "cmake.skipConfigureIfCachePresent": true,
+    "cmake.parseBuildDiagnostics": false,
+    "cmake.automaticReconfigure": true,
+    "cmake.configureArgs": [
+        "-DBOARD=stm32_min_dev_blue.overlay"
+    ],
+    "cmake.configureOnEdit": true,
+    "files.associations": {
+        "*.g4": "antlr",
+        "*.js": "javascript",
+        "*.c": "c",
+        "gpio.h": "c",
+        "kernel.h": "c",
+        "system_timer.h": "c"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}
